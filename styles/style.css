@@ -94,6 +94,10 @@ ol {
   color: #ffffff;
 }
 
+.content__card-link_current {
+  background-color: #545050;
+}
+
 .content__card-link:focus {
   outline: none;
 }
@@ -171,6 +175,7 @@ ol {
   width: 212px;
   padding-right: 40px;
   gap: 5px;
+  padding-bottom: 5px;
 }
 
 .search-form__fieldset-title {
@@ -194,7 +199,6 @@ ol {
   display: flex;
   align-items: center;
   cursor: pointer;
-  padding-bottom: 5px;
 }
 
 .search-form__label:hover .search-form__label-text {
@@ -236,11 +240,11 @@ ol {
   color: #ffffff;
   margin-top: auto;
   border: 1px solid #ffffff;
+  min-height: 34px;
 }
 
 .more-button {
   width: 399px;
-  min-height: 34px;
 }
 
 button:focus {
@@ -261,7 +265,6 @@ button:focus-visible {
 
 .search-form__submit-button {
   width: 194px;
-  min-height: 34px;
   line-height: 21.6px;
   margin-bottom: 4px;
 }
